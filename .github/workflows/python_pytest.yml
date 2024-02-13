@@ -4,8 +4,10 @@ on: [push]
 
 jobs:
   build:
-    runs-on: ubuntu-latest
+    runs-on: self-hosted
+    # runs-on: ubuntu-latest
     # ubuntu container image will be used for executions
+    # This is a GitHub-hosted Runner. We are not using any runners here.
 
     strategy:
       matrix:
