@@ -5,7 +5,7 @@ on: [push]
 jobs:
   build:
     runs-on: ubuntu-latest
-    # ubuntu container image will be used for execution
+    # ubuntu container image will be used for executions
 
     strategy:
       matrix:
